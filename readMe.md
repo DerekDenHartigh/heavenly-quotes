@@ -7,4 +7,4 @@ I should probably add a how to here:
 Additional tasks:
     - create an additional module that contains a function to get a random item from an array
 - add a check using the `url` module that looks for `?id=<number>`, and id is set, return that index from the array, instead of a random one.
-- make the quotes objects, where the object is `{quote: 'string', quoteBy: 'string', quoteYear: number}` (edited) 
+    - make the quotes objects, where the object is `{quote: 'string', quoteBy: 'string', quoteYear: number}` (edited) - done, but I don't really want to go through and put all that data in.

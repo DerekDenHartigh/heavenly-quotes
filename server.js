@@ -8,9 +8,7 @@ let quoteRandomizer = require('./quote-randomizer.js');
 
 
 http.createServer((request, response)=>{
-    // if I want to query later?
-    // var queryData = url.parse(request.url, true).query;
-    // console.log(queryData,'queryData');
+    var queryData = url.parse(request.url, true).query;
     //write headers
     response.writeHead(200, {'content-type': "text/html"})  // format for api return
     // write body
